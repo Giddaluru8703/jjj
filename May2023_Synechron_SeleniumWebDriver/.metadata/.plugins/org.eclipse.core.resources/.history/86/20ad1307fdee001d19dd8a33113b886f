@@ -1,0 +1,8 @@
+package javaConcepts;
+
+public class WorkWithproperties {
+	@Test
+	public void workWithprop(){
+		
+	}
+}

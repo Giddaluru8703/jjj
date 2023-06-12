@@ -1,0 +1,20 @@
+package annotations;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+
+public class SoftAssertExample {
+
+	@Test
+	public void testCase1(){
+		SoftAssert st=new SoftAssert();
+		int Explinks=10;
+		int Actlinks=12; // Selenium code
+		System.out.println("A");
+		st.assertEquals(Actlinks, Explinks);
+		System.out.println("B");
+		
+		
+}
+}

@@ -1,0 +1,8 @@
+package testCasesForAmazon;
+
+public class Test1 {
+	@Test
+	public void testCase1(){
+		
+	}
+}

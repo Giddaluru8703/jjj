@@ -1,0 +1,14 @@
+package seleniumConcepts;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class WorkWithBrowser {
+	@Test
+	public void workWithBrows(){
+		WebDriver driver=new ChromeDriver(); //openBrowser
+		driver.get("https://www.amazon.com/");
+		driver.manage().window().maximize();
+	}
+}

@@ -1,0 +1,31 @@
+package annotations;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class Annot {
+	@Test
+	public void testCase1(){
+		//selenium code to composemail
+		System.out.println("composemail");
+	}
+	@BeforeMethod
+	public void bmethod(){
+		System.out.println("openBrowser,url,Login");
+	}
+	@AfterMethod
+	public void amethod(){
+		System.out.println("Logout,closeBrowser");
+	}
+	@Test
+	public void testCase2(){
+		//selenium code to savemail
+		System.out.println("savemail");
+	}
+	@Test
+	public void testCase3(){
+		//selenium code to Deletemail
+		System.out.println("Deletemail");
+	}
+}

@@ -1,0 +1,26 @@
+package javaConcepts;
+
+import java.util.HashSet;
+
+import org.testng.annotations.Test;
+
+import com.assertthat.selenium_shutterbug.core.Main;
+
+public class HashSetExample {
+	@Test
+	public void testCase1(){
+		HashSet<String> s=new HashSet<String>();
+		
+		s.add("B");
+		s.add("C");
+		s.add("D");
+		s.add("B");
+		s.add("C");
+		
+		System.out.println("size ="+s.size());
+		
+		for(String x : s){
+			System.out.println(x);
+		}
+	}
+}

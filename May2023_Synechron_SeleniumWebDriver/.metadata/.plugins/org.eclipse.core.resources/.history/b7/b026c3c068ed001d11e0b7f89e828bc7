@@ -1,0 +1,22 @@
+package annotations;
+
+import org.testng.annotations.Test;
+
+public class Order {
+	@Test
+	public void testCase1(){
+		//selenium code to Login
+		System.out.println("Login");
+	}
+	@Test
+	public void testCase2(){
+		//selenium code to composemail
+		System.out.println("composemail");
+	}
+	@Test
+	public void testCase3(){
+		//selenium code to Deletemail
+		System.out.println("Deletemail");
+	}
+	
+}

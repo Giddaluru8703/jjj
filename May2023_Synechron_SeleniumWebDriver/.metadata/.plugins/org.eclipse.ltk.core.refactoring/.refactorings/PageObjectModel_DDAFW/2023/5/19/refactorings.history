@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PageObjectModel_DDAFW/src/test/java/excelFiles/TestData (2).xlsx&apos; to &apos;TestData.xlsx&apos;" description="Rename resource &apos;TestData (2).xlsx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/java/excelFiles/TestData (2).xlsx" name="TestData.xlsx" stamp="1683803045156" updateReferences="true"/>
+</session>

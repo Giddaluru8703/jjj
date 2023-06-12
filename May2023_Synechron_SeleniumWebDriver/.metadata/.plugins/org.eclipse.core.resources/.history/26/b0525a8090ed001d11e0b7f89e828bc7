@@ -1,0 +1,11 @@
+package seleniumConcepts;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class WorkWithBrowser {
+	@Test
+	public void workWithBrows(){
+		new ChromeDriver(); //openBrowser
+	}
+}

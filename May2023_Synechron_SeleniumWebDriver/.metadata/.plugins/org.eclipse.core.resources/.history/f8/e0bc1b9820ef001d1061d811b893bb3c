@@ -1,0 +1,16 @@
+package testCasesForAmazon;
+
+import org.testng.annotations.Test;
+
+import pageFactory.Homepage;
+import testBase.TestBase;
+
+public class Test1 extends TestBase{
+	@Test
+	public void testCase1() throws Throwable{
+		openBrowser();
+		Homepage hp=new Homepage();
+		hp.clickondontchange();
+		hp.clickontodaysdeal();
+	}
+}
